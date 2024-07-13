@@ -12,8 +12,9 @@ This is a Solidity project with a smart contract simulating a version of an ATM.
 
 1. In the terminal, install the dependencies with ```npm i```.
 2. Open two other terminals.
-3. In one terminal, run ```npm hardhat node```.
-4. In another terminal, run ```
+3. In one terminal, run ```npx hardhat node```.
+4. In another terminal, run ```npx hardhat run --network localhost scripts/deploy.js```
+5. To deploy the front-end, run ```npm run dev``` in the first terminal.
 
 ### Landing Page
 
@@ -43,7 +44,6 @@ Clicking the **Unlock 1 ETH** button leads to a Metamask transaction confirmatio
 ## Author
 
 Eonn Domingo
-
 
 ## License
 
